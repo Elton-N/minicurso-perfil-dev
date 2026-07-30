@@ -1,0 +1,83 @@
+/* Estilo para todo o corpo da página */
+
+body {
+  /* Define a fonte base para legibilidade */
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  /* Define o fundo de toda a página */
+  background-color: #f4f4f4;
+  margin: 20px; /* Margem para afastar o conteúdo das bordas da janela */
+}
+ 
+/* Estilo base para os parágrafos */
+p {
+  color: #333;
+  line-height: 1.6; /* Melhora a legibilidade do texto */
+}
+ 
+a {
+  color: #007bff;
+  text-decoration: none; /* Remove o sublinhado padrão */
+}
+ 
+a:hover {
+  text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+}
+
+/* Estilize o cabeçalho e a navegação */
+
+header {
+  background-color: #007bff;
+  color: white;
+  padding: 25px 0; /* Espaço interno: 25px em cima/baixo, 0 nas laterais */
+  text-align: center;
+}
+ 
+nav {
+  background-color: #e9ecef;
+  padding: 15px 0;
+  text-align: center;
+  /* Margem externa inferior para afastar do main */
+  margin-bottom: 30px;
+  border-bottom: 2px solid #ccc;
+}
+
+/*  Estilize o conteúdo principal (box model) */
+
+main {
+  background-color: white;
+  width: 90%; /* A largura será 90% da tela */
+  max-width: 800px; /* Mas não passará de 800px */
+  margin: 20px auto; /* Centraliza o bloco 'main' na página */
+  padding: 20px; /* Espaço interno para o conteúdo não colar nas bordas */
+  border-radius: 8px; /* Bordas levemente arredondadas */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Sombra sutil */
+}
+
+/* Estilo único para a foto de perfil (ID) */
+#foto-perfil {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%; /* Transforma a imagem em um círculo */
+  border: 5px solid white;
+  display: block; /* Permite centralizar com margem automática */
+  margin: 25px auto; /* Centraliza a imagem horizontalmente */
+}
+ 
+ 
+/* Estilo reutilizável para todos os títulos de seção (CLASS) */
+.secao-titulo {
+  color: #007bff;
+  border-bottom: 2px solid #007bff;
+  padding-bottom: 8px; /* Espaço interno abaixo do texto */
+  margin-top: 45px;
+  font-size: 1.8em;
+}
+footer {
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 30px;
+  font-size: 0.9em;
+  color: #666;
+  border-top: 1px solid #ccc;
+}
